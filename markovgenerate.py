@@ -2,7 +2,7 @@
 import markovify
 
 # Get raw text as string.
-with open("shoegaze_lyrics_bank.txt") as f:
+with open("shoegaze_lyrics_bank.txt", encoding='ISO-8859-1') as f:
     text = f.read()
 
 # Build the model.
